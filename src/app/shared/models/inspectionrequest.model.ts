@@ -1,0 +1,30 @@
+export class Inspectionrequest {
+    id: number;
+    txnno: string;
+    grnno: string;
+    grnid: string;
+    itemcode: string;
+    itemname: string;
+    itemtype: string;
+    lotno: string;
+    batchno: string;
+    uom: string;
+    qty: number;
+    requestdate: Date;
+    requestby: string;
+    dateofinspection: Date;
+    okstock: number;
+    reworkstock: number;
+    onholdstock: number;
+    rejectedstock: number;
+    segregationstock: number;
+    status: string;
+    attachment: string[];
+    inspectedby: string;
+    samplingsummary: string;
+    findings: string;
+    createdby: string;
+    updatedby: string;
+    createdAt: Date;
+    updatedAt: Date;
+}

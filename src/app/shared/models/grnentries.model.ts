@@ -1,0 +1,40 @@
+export class Grnentries {
+    id: number;
+    grnno: string;
+    invoiceno: string;
+    orderno: string;
+    heatno: string;
+    suppliercode: string;
+    suppliername: string;
+    grndate: Date;
+    delivereddate: string;
+    deliverylocation: string;
+    costcentre: string;
+    advnoteno: string;
+    itemcode: string;
+    itemname: string;
+    itemtype: string;
+    inspectionrequired: string;
+    packagespec: string;
+    lotno: string;
+    batchno: string;
+    manufacturingdate: Date;
+    expirydate: Date;
+    uom: string;
+    unitprice: number;
+    orderedqty: number;
+    deliveredqty: number;
+    okqty: number;
+    rejectedqty: number;
+    segragationqty: number;
+    totalprice: number;
+    attachment: string[];
+    receivedby: string;
+    qccheckedby: string;
+    status: string;
+    createdby: string;
+    updatedby: string;
+    createdAt: Date;
+    updatedAt: Date;
+
+}

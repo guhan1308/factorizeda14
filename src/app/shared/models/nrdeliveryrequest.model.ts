@@ -1,0 +1,32 @@
+export class Nrdeliveryrequest{
+    id: number;
+    nrdcrequestno: string;
+    requestedby: string;
+    requesteddepartment: string;
+    customerid: string;
+    customername: string;
+    supplierid: string;
+    suppliername: string;
+    receivertype: string;
+    itemcode: string;
+    itemname: string;
+    itemtype: string;
+    salesorderno: string;
+    hsncode: string;
+    quantity: number;
+    uom: number;
+    unitprice: number;
+    totalprice: number;
+    originatingCity: string;
+    destinationCity: string;
+    createreason: string;
+    fromaddress: string;
+    toaddress : string;
+    pickuplocation : string;
+    destinationlocation : string;
+    status: string;
+    createdby: string;
+    updatedby: string;
+    createdAt: Date;
+    updatedAt : Date;
+}

@@ -1,0 +1,35 @@
+export class Itemmaster {
+    id: number;
+    itemcode: string;
+    itemname: string;
+    itemtype: string;
+    hsncode: string;
+    itemcategory: string;
+    packagespec: string;
+    inventorymethod: string;
+    category: string;
+    inspectionrequired: string;
+    leadtime: number;
+    storelocation: string;
+    binlocation: string;
+    uom: string;
+    bufferstock: number;
+    eoq: number;
+    reorderlevel: number;
+    minstock: number;
+    maxstock: number;
+    maxqty: number;
+    annualdemand: number;
+    orderingcost: number;
+    holdingcost: number;
+    dailyconsumption: number
+    plannedqty: number;
+    despatchqty: number;
+    availableqty: number;
+    status: string;
+    attachment: string[];
+    createdby: string;
+    updatedby: string;
+    createdAt: Date;
+    updatedAt: Date;
+}

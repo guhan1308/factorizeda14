@@ -1,0 +1,34 @@
+export class Nrdeliverynote{
+    id: number;
+    nrdcrequestno: string;
+    requestedby: string;
+    requesteddepartment: string;
+    customerid: string;
+    customername: string;
+    supplierid: string;
+    suppliername: string;
+    itemcode: string;
+    itemname: string;
+    itemtype: string;
+    lotno: string;
+    batchno: string;
+    grnno: string;
+    invoiceno: string;
+    salesorderno: string;
+    hsncode: string;
+    quantity: number;
+    uom: number;
+    unitprice: number;
+    totalprice: number;
+    originatingCity: string;
+    destinationCity: string;
+    fromaddress: string;
+    toaddress : string;
+    pickuplocation : string;
+    destinationlocation : string;
+    status: string;
+    createdby: string;
+    updatedby: string;
+    createdAt: Date;
+    updatedAt : Date;
+}
